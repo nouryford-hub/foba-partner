@@ -1,0 +1,9 @@
+# FOBA Partner Portal — Cloudflare Pages _redirects
+# Datei ins Root-Verzeichnis des Cloudflare Pages Deployments legen
+# Doku: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# SPA Fallback: alle Pfade → index.html (für Anchor-Navigation)
+/partner/*  /partner/index.html  200
+
+# Trailing Slash Redirect
+/partner    /partner/            301
